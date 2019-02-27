@@ -1,0 +1,161 @@
+html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            overflow: hidden;
+            background-color: #42f4c8;
+        }
+
+.column {
+  float: left;
+  width: 24%;
+}
+.column:nth-child(2){
+    width: 28%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2{
+    text-align: center;
+    color:black;
+}
+
+#rosu{
+    background-color:#ea4335 ;
+    color:gray;
+    border-radius:6px;
+}
+#albastru{
+    background-color:#4285f3;
+    color:gray;
+    border-radius:6px;
+}
+#verde_deschis{
+    background-color:#34a853;
+    color:gray;
+    border-radius:6px;
+}
+#galben{
+    background-color:#f6ff60;
+    color:gray;
+    border-radius:6px;
+}
+#maro{
+    background-color:#56381F;
+    color:gray;
+    border-radius:6px;
+}
+#mov{
+    background-color:#8f79ba;
+    color:gray;
+    border-radius:6px;
+}
+#verde_inchis{
+    background-color:#062d00;
+    color:gray;
+    border-radius:6px;
+}
+#albastru_inchis{
+    background-color:#00116d;
+    color:gray;
+    border-radius:6px;
+}
+#alb{
+    background-color:#eeeeee;
+    color:gray ;
+    border-radius:6px;
+}
+#negru{
+    background-color:#000000;
+    color:grey;
+    border-radius:6px;
+}
+
+#casuta_text{
+    height: 32px;
+    width: 150px;
+    border-radius:6px;
+}
+
+button{
+	background-color: white;
+	width: 32px;
+	height: 32px;
+	margin: 1.5px;
+    border-radius:6px;
+    transition-duration: 0.4s;
+    border-color: black;
+    border-width: 1px;
+}
+button:hover{
+    box-shadow: 4px 4px 2px #aaaaaa;
+}
+
+svg{
+    width: 1300px;
+    height: 550px;
+    margin: 0px;
+    background-color: #eaeaea;
+    cursor: crosshair;
+    }
+svg text{
+    fill:black;
+    fill-opacity:1;
+
+}
+svg rect{
+        fill: #b4b4b4;
+        fill-opacity: 0.7;
+        stroke: black;
+        stroke-opacity: 0.7;
+        stroke-width:0px;
+        }
+svg #selectie_dreptunghi {
+
+            fill: transparent;
+            stroke: black;
+            stroke-opacity: 0.5;
+			stroke-dasharray: 3,3;
+            stroke-width:1px;
+            }
+
+svg ellipse{
+			fill: #b4b4b4;
+            fill-opacity: 0.7;
+            stroke: black;
+            stroke-opacity: 0.7;
+            stroke-width:0px;
+		}
+svg #selectie_elipsa{
+		
+			fill: transparent;
+            stroke: black;
+            stroke-opacity: 0.5;
+			stroke-dasharray: 3,3;
+            stroke-width:1px;
+			
+			
+		}
+svg line{
+			fill: #b4b4b4;
+            fill-opacity: 0.7;
+            stroke: black;
+            stroke-opacity: 0.7;
+            fill-width: 4px;
+		}
+svg #selectie_linie{
+		
+			fill: transparent;
+            stroke: black;
+            stroke-opacity: 0.5;
+			stroke-dasharray: 3,3;
+            stroke-width:1px;
+		}
+svg .selectat{
+            fill:gray;
+            fill-opacity: 0.8;
+        }

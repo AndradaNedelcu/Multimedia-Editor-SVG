@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Editor SVG</title>
+    <link rel="shortcut icon" type="image/png" href="media/Circle-icon.png"/>
+    <link rel="stylesheet" type="text/css" href="6_1072_NEDELCU_ANDRADA_MIHAELA.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="6_1072_NEDELCU_ANDRADA_MIHAELA.js"></script>
+</head>
+
+<body>
+        <h2 align="center">Editor grafica vectoriala</h2>
+
+        <audio id="sunet_btn_elemente_geometrice" src="media/ding.mp3" preload="auto"></audio>
+        <audio id="sunet_btn_culori" src="media/button-20.mp3" preload="auto"></audio>
+        <audio id="sunet_functie_selectie" src="media/button-30.mp3" preload="auto"></audio>
+        <audio id="sunet_functie_delete" src="media/button-17.mp3" preload="auto"></audio>
+
+
+
+<div class="row">
+
+  <div class="column" align="center">
+      <button id="btn_dreptunghi" >
+            <img src="media/rectangle-icon.png">
+        </button>
+        <button id="btn_elipsa">
+            <img src="media/Circle-icon.png">
+        </button>
+        <button id="btn_linie">
+            <img src="media/Line-icon.png">
+        </button>
+       <p> Elemente geometrice</p>
+  </div>
+
+  <div class="column" align="center">
+            <button id="rosu">0</button>
+            <button id="albastru">1</button>
+            <button id="verde_deschis">2</button>
+            <button id="galben">3</button>
+            <button id="maro">4</button>
+            <button id="mov">5</button>
+            <button id="verde_inchis">6</button>
+            <button id="albastru_inchis">7</button>
+            <button id="alb">8</button>
+            <button id="negru">9</button>
+      <p>Culori</p>
+  </div>
+
+
+  <div class="column" align="center">
+            <button id="margini_minus">-</button>
+            <button id="margini_plus">+</button>
+      <p>Margini</p>
+  </div>
+
+  <div class="column" align="center">
+            <input id="casuta_text" type="text">
+            <button id="adauga_text">OK</button>
+      <p>Text</p>
+  </div>
+
+
+</div>
+
+    <div align="center">
+    <svg  id="editor">
+        <svg id="elemente"></svg>
+        <rect id="selectie_dreptunghi"></rect> 
+        <ellipse id="selectie_elipsa"></ellipse>
+        <line id="selectie_linie"></line>
+        <text id="selectie_text"></text>
+
+       
+    </svg>
+    </div>
+</body>
+</html>
